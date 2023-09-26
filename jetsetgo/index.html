@@ -7,8 +7,13 @@
 	<title>JetSetGo</title>
 
 
-	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
 	
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+
+	<!-- Favicons -->
+	<link href="images/jetsetgo.png" rel="icon">
+	<link href="images/jetsetgo.png" rel="apple-touch-icon">
+
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="css/animate.css">
 	<!-- Icomoon Icon Fonts-->
@@ -86,7 +91,8 @@
 									<div class="tab-content">
 										<div class="tab-content-inner active" data-content="signup">
 											<h3>Book Your Trip</h3>
-											<form action="contact.php" method="post"></form>
+											<form id="trip-form" action="process.php" method="post">
+
 												<div class="row form-group">
 													<div class="col-md-12">
 														<label for="fullname">Your Name</label>

@@ -20,8 +20,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Send the email
     mail($to, $subject, $message);
-
-    // Redirect to a thank you page
     header("Location: index.html");
     exit;
 }
